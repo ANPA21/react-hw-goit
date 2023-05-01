@@ -9,7 +9,7 @@ import {
   StatsItem,
   StatsTitle,
   StatsText,
-} from 'components/profile/Profile.styled';
+} from './profile.styled.js';
 export const Profile = ({
   item: { tag, username, location, avatar, stats },
 }) => {
