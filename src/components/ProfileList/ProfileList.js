@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Profile } from 'components/Profile/Profile';
+import { Profile } from '../Profile/Profile';
 import { List, Item } from './ProfileList.styled';
 export const ProfileList = ({ items }) => {
   return (
