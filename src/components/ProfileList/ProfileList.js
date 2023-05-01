@@ -1,16 +1,15 @@
 import PropTypes from 'prop-types';
-
-import { Profile } from './Profile';
-
+import { Profile } from '../Profile/Profile';
+import { List, Item } from './ProfileList.styled';
 export const ProfileList = ({ items }) => {
   return (
-    <ul>
+    <List>
       {items.map(item => (
-        <li key={item.tag}>
+        <Item key={item.tag}>
           <Profile item={item} />
-        </li>
+        </Item>
       ))}
-    </ul>
+    </List>
   );
 };
 ProfileList.propTypes = {
