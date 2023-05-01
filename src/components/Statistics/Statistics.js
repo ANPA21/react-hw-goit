@@ -6,7 +6,7 @@ import {
   StatListItem,
   ItemLabel,
   ItemInfo,
-} from './Stats.styled';
+} from './Statistics.styled';
 export const Stats = ({ title, data }) => {
   return (
     <Statistics className="statistics">
