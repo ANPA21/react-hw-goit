@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
-    "forceConsistentCasingInFileNames": false
+    "baseUrl": "src"
   },
   "include": ["src"]
 }
