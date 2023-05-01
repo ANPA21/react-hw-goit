@@ -9,5 +9,3 @@ export const List = styled.ul`
   margin-bottom: 20px;
   background-color: #e7ecf2;
 `;
-
-export const Item = styled.li``;

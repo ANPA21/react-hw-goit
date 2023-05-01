@@ -1,13 +1,11 @@
 import PropTypes from 'prop-types';
 import { Profile } from 'components/Profile/Profile';
-import { List, Item } from './ProfileList.styled';
+import { List } from './ProfileList.styled';
 export const ProfileList = ({ items }) => {
   return (
     <List>
       {items.map(item => (
-        <Item key={item.tag}>
-          <Profile item={item} />
-        </Item>
+        <Profile item={item} />
       ))}
     </List>
   );
